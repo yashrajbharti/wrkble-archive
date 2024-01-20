@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="cMS1v8p5GxOPOxQUj6ffcKdnlGpsMPnwnu4N6ykA5v0" />
+    <title>wrkble</title>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload stylesheet" as="font"
+        href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        crossorigin>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel='stylesheet' href='./styles/fullpage.css'>
+    <link rel="stylesheet" href="./styles/pace.css">
+    <!-- <script src="./js/aframe.js"></script>
+    <script src="./js/aframe-extras.js"></script>
+    <script src="./js/orbit-controls.js"></script> -->
+    <script src="./js/jquery.js" defer></script>
+    <script src='./js/fullpage.js' defer></script>
+    <script src="./js/getCourses.js"></script>
+    <script src="./js/main.js" defer></script>
+    <script src="./js/flip.js" defer></script>
+    <script src="./js/cursor.js" defer></script>
+    <script src="./js/touch.js" defer></script>
+    <script src="./js/hamburger.js" defer></script>
+    <script src="./js/pace.js"></script>
+    <script type="text/javascript">
+        paceOptions = {
+            className: 'pacepreloader'
+        }
+    </script>
+    <style>
+        #Vector_2 {
+            opacity: 1;
+            animation: blink 0.8s ease-in-out infinite alternate;
+        }
+
+        @keyframes blink {
+            from {
+                opacity: 1;
+            }
+
+            to {
+                opacity: 0;
+            }
+        }
+    </style>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+                w[l] = w[l] || []; w[l].push({
+                    'gtm.start':
+                        new Date().getTime(), event: 'gtm.js'
+                }); var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                        'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-WM2MCCFS');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '688965563390517');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=688965563390517&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
+</head>
+
+<body>
+    <div class="pacepreloader">
+        <div class="wrkble-logo">
+            <svg width="83" height="40" viewBox="0 0 83 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="w 1" clip-path="url(#clip0_76_2)">
+                    <path id="Vector"
+                        d="M62.9242 1.4248C63.6242 3.52481 63.9742 6.32481 63.9742 9.82481C63.9742 13.2748 63.5492 16.5998 62.6992 19.7998C61.8492 22.9998 60.5492 26.0498 58.7992 28.9498C57.0992 31.7998 54.6992 34.1248 51.5992 35.9248C48.5492 37.6748 45.0242 38.5498 41.0242 38.5498C35.0242 38.5498 31.0242 36.8748 29.0242 33.5248C25.4242 36.8748 21.3992 38.5498 16.9492 38.5498C10.9492 38.5498 6.82422 37.2748 4.57422 34.7248C3.07422 33.0248 2.32422 30.4998 2.32422 27.1498C2.32422 25.3998 2.52422 23.4498 2.92422 21.2998L6.44922 1.4248H19.1992L15.6742 21.3748C15.5242 22.1248 15.4492 22.7998 15.4492 23.3998C15.4492 26.2498 16.9242 27.6748 19.8742 27.6748C21.9242 27.6748 23.4742 26.7998 24.5242 25.0498C25.5742 23.2498 26.4742 20.1248 27.2242 15.6748L29.7742 1.4248H42.5242L38.9992 21.3748C38.8492 22.1248 38.7742 22.7998 38.7742 23.3998C38.7742 26.2498 40.2492 27.6748 43.1992 27.6748C48.3992 27.6748 50.9992 22.2248 50.9992 11.3248C50.9992 8.77481 50.7992 5.94981 50.3992 2.84981L50.1742 1.4248H62.9242Z"
+                        fill="#9EFF7C" />
+                    <path id="Vector_2"
+                        d="M69.0512 26.1748C67.6512 27.6248 66.9512 29.9498 66.9512 33.1498C66.9512 36.7498 69.0262 38.5498 73.1762 38.5498C76.2262 38.5498 78.4512 37.8248 79.8512 36.3748C81.3012 34.9248 82.0262 32.6248 82.0262 29.4748C82.0262 25.7748 79.9262 23.9248 75.7262 23.9248C72.6762 23.9248 70.4512 24.6748 69.0512 26.1748Z"
+                        fill="#9EFF7C" />
+                </g>
+                <defs>
+                    <clipPath id="clip0_76_2">
+                        <rect width="82.5" height="40" fill="white" />
+                    </clipPath>
+                </defs>
+            </svg>
+
+        </div>
+    </div>
+    <header id="menu">
+        <nav>
+            <a href="#home" aria-label="go to home screen"> <img class="landscape" src="./assets/wrkble.svg" alt="">
+                <img class="portrait logo-mini" src="./assets/w.svg" alt="" height="20px"></a>
+
+            <div>
+                <a class="link-changer" href="https://wrkble.com/login" target="_blank"><button
+                        class="button button-flex flex2" data-cursor="pointer">
+                        Sign In
+                        <img src="./assets/off-white-arrow.svg" height="50px" alt="">
+                    </button></a>
+                <label for="check" class="check-nav">
+                    <input type="checkbox" id="check" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+            </div>
+        </nav>
+        <div id="cursor"></div>
+        <div id="cursor-border"></div>
+    </header>
+    <div class="pane" style="position: fixed; translate: 100% 0">
+        <ul class="hamburger-options">
+            <li onclick="location.href='#home'">Home</li>
+            <li onclick="location.href='https\://wrkble.com/about'">About</li>
+            <li onclick="location.href='#instructors'">Instructors</li>
+            <li onclick="location.href='#featured'">Courses</li>
+            <li onclick="location.href='https\://wrkble.com/support'">Help & Support</li>
+            <li onclick="location.href='https\://wrkble.com/feedback'">Feedback</li>
+            <li onclick="location.href='https\://wrkble.com/contact'">Contact</li>
+            <li onclick="location.href='https\://wrkble.com/termsAndConditions'">Terms & Conditions</li>
+            <li onclick="location.href='https\://wrkble.com/privacyPolicy'">Privacy Policy</li>
+        </ul>
+    </div>
+    <div id="fullpage">
+        <section class="vertical-scrolling home">
+            <div class="content-container">
+                <h2>Get<strong class="flip" data-cursor="pointer"><span class="word">Career</span>
+                        <span class="word">Platform</span>
+                        <span class="word">Job</span>
+                        <span class="word">Work</span>
+                        <span class="word">Future</span></strong><br> Ready </h2>
+                <h3>With courses that transform your underlying potential <br>to workable industry talent, you are
+                    unstoppable
+                    now.
+                    <br><br>
+                    <button class="button neon button-flex flex2" data-cursor="pointer" onclick='
+                        if(!localStorage.getItem("userType"))
+                        window.open("https\://wrkble.com/register")
+                     else  window.open("https\://wrkble.com/dashboard", "_blank")
+                            '>
+                        Join Now
+                        <img src="./assets/white-arrow.svg" height="50px" alt="">
+                    </button>
+                </h3>
+
+            </div>
+            <div class="model-container">
+                <div class="disable" draggable="false"></div>
+                <!-- <a-scene loading-screen="dotsColor: #9EFF7C; backgroundColor: #0e1012" background="color: #0e1012"
+                    device-orientation-permission-ui="enabled: false" vr-mode-ui="enabled: false" class="aframebox"
+                    renderer="colorManagement: true">
+                    <a-assets>
+                        <a-asset-item id="neon" src="./models/scene.gltf"></a-asset-item>
+                    </a-assets>
+
+                    <a-entity touchEnabled="false" wasd-controls-enabled="false" look-controls-enabled="false"
+                        touchEnabled="false" id="camera" camera="fov: 80; zoom: 1;" position="0 2 5" orbit-controls="
+                            autoRotate: false;
+                            target: #target;
+                            enableDamping: true;
+                            dampingFactor: 0.125;
+                            rotateSpeed:0.25;
+                            minDistance:3;
+                            maxDistance:100;
+                            ">
+                    </a-entity>
+                    <a-entity position="-4.5 0.1 0" id="target">
+                        <a-entity gltf-model="#neon" animation-mixer scale="2 2 2" position="4 -1 2.2"></a-entity>
+                    </a-entity>
+                </a-scene> -->
+            </div>
+
+            <img class="next-page" src="./assets/DownArrow.svg" alt="" height="30px">
+            <img class="plank" src="./assets/plank.svg" alt="" srcset="">
+            <a aria-label="go to about page" data-cursor="pointer" class="go-to-next-page" href="#about"></a>
+            <div class="lights bottom"></div>
+            <div class="cards">
+                <a href="#pricing" aria-label="go to pricing page"><img draggable="false" data-cursor="pointer4"
+                        class="pro shake" src="./assets/pro.webp" alt="" height="250px"></a>
+                <a href="#pricing" aria-label="go to pricing page"><img draggable="false" data-cursor="pointer5"
+                        class="lrn antishake" src="./assets/lrn.webp" alt="" height="250px"></a>
+            </div>
+        </section>
+        <section class="vertical-scrolling about">
+
+            <div class="content-container">
+                <h2>Curated Courses,<br> Made to<strong class="flip" data-cursor="pointer">
+                        <span class="word2">Perfection</span>
+                        <span class="word2">Help</span>
+                        <span class="word2">Strengthen</span>
+                        <span class="word2">Deliver</span></strong></h2>
+                <h3><span class="landscape">
+                        Evolve with the technology ecosystem <br> and get industry exposure with Wrkble.
+                    </span> <span class="portrait small-height">
+                        Achieve your career goals by combining courses to create a personalized learning experience and
+                        trough our one-to-one mentoring program. Our volunteer mentors help identify the spark and then
+                        seek to strengthen and grow that spark to help foster resilience and confidence.
+                    </span></h3>
+            </div>
+            <div class="cards-container">
+                <a class="goUp" style="display: none;" href="#home"></a>
+                <a class="goDown" style="display: none;" href="#featured"></a>
+                <div class="card2 card-item" data-cursor="pointer4"
+                    onclick="location.href='https\://wrkble.com/mentoring'">
+                    <h4>1 on 1 mentoring</h4>
+                    <p>We help you achieve your career goals by combining courses to create a personalized learning
+                        experience. Our Learning.</p>
+                </div>
+                <div class="card1 card-item" data-cursor="pointer4"
+                    onclick="location.href='https\://wrkble.com/pathway'">
+                    <h4>Offering Pathways</h4>
+                    <p>Our Learning Pathways take a unique approach to online learning, offering a holistic and
+                        practical approach to mastering specific
+                    </p>
+                </div>
+                <div class="card3 card-item" data-cursor="pointer4"
+                    onclick="location.href='https\://wrkble.com/commitment'">
+                    <h4>Our Commitment</h4>
+                    <p> We are committed to providing you with the highest quality learning experience. Our Learning
+                        Pathways are designed to help you achieve your career goals and </p>
+                </div>
+            </div>
+            <div class="lights center-left"></div>
+        </section>
+        <section class="vertical-scrolling featured">
+            <img src="./assets/lines.svg" alt="" class="lines">
+            <div class="content-container">
+                <h2>Featured &nbsp;&nbsp;<span class="special-font">Courses</span></h2>
+                <h3> Select from the courses that have garnered <br>
+                    admiration from tech enthusiasts worldwide.
+                </h3>
+            </div>
+            <div class="featured-container">
+                <a class="goUp" style="display: none;" href="#about"></a>
+                <a class="goDown" style="display: none;" href="#pricing"></a>
+                <!-- SINGLE CARD -->
+                <article class="featured-card">
+                    <img loading="lazy" src="https://picsum.photos/200/200" alt="" class="image">
+                    <div class="featured-content">
+                        <h2>Frontend Dev</h2>
+                        <p class="tag difficulty">Beginner</p>
+                        <p class="course-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
+                            possimus?</p>
+                        <div class="tag-container">
+                            <p class="tag">HTML</p>
+                            <p class="tag">CSS</p>
+                            <p class="tag">JS</p>
+                        </div>
+                        <a aria-label="View Course" href="/"><button class="neon button button-flex flex1"
+                                data-cursor="pointer"><span>View
+                                    Course</span><img src="./assets/white-arrow.svg" height="50px" alt=""></button></a>
+                    </div>
+                </article>
+                <!-- END OF SINGLE CARD -->
+                <!-- SINGLE CARD -->
+                <article class="featured-card">
+                    <img loading="lazy" src="https://picsum.photos/200/200" alt="" class="image">
+                    <div class="featured-content">
+                        <h2>Frontend Dev</h2>
+                        <p class="tag difficulty">Intermediate</p>
+                        <p class="course-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
+                            possimus?</p>
+                        <div class="tag-container">
+                            <p class="tag">HTML</p>
+                            <p class="tag">CSS</p>
+                            <p class="tag">JS</p>
+                        </div>
+                        <a aria-label="View Course" href="/"><button class="neon button button-flex flex1"
+                                data-cursor="pointer"><span>View
+                                    Course</span><img src="./assets/white-arrow.svg" height="50px" alt=""></button></a>
+                    </div>
+                </article>
+                <!-- END OF SINGLE CARD -->
+                <!-- SINGLE CARD -->
+                <article class="featured-card">
+                    <img loading="lazy" src="https://picsum.photos/200/200" alt="" class="image">
+                    <div class="featured-content">
+                        <h2>Frontend Dev</h2>
+                        <p class="tag difficulty">Advanced</p>
+                        <p class="course-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
+                            possimus?</p>
+                        <div class="tag-container">
+                            <p class="tag">HTML</p>
+                            <p class="tag">CSS</p>
+                            <p class="tag">JS</p>
+                        </div>
+                        <a aria-label="View Course" href="/"><button class="neon button button-flex flex1"
+                                data-cursor="pointer"><span>View
+                                    Course</span><img src="./assets/white-arrow.svg" height="50px" alt=""></button></a>
+                    </div>
+                </article>
+                <!-- END OF SINGLE CARD -->
+            </div>
+        </section>
+        <section class="vertical-scrolling pricing">
+            <div class="content-container">
+                <h2>Explore &nbsp;&nbsp;<span class="special-font">Wrkble Pro</span></h2>
+                <h3>Pick a plan suited for your needs. A <a
+                        style="color: #9EFF7C; text-decoration: underline; text-underline-offset: 5px;"
+                        href="https://wrkble.com/refundPolicy" target="_blank">Refund policy</a> for you with <b
+                        style="color: #9EFF7C;">Money
+                        back guarantee.</b>
+                </h3>
+            </div>
+            <div class="pricing-container">
+                <a class="goUp" style="display: none;" href="#featured"></a>
+                <a class="goDown" style="display: none;" href="#contact"></a>
+                <article class="lrn pricing-card">
+                    <h4 class="special-font">lrn</h4>
+                    <h2>$9.99 <span class="smaller">/mo</span></h2>
+                    <p>Up to <span class="darker">5$</span> of benefits</p>
+                    <div class="benefits">
+                        <p>Includes:</p>
+                        <ul>
+                            <li>Access to 30+ Courses</li>
+                            <li>Access to 5+ Learning Journeys</li>
+                            <li>Access to our exclusive forum</li>
+                            <li>Community Privileges</li>
+                            <li>1 Monthly Mentoring Call</li>
+                        </ul>
+                    </div>
+                    <button class="pricing-button button button-flex flex1" data-cursor="pointer"
+                        onclick='window.location.href = "https\://wrkble.com/pricing"'><span>BUY
+                            NOW</span><img src="./assets/white-arrow.svg" height="50px" alt=""></button>
+                </article>
+                <article class="pro pricing-card">
+                    <h4 class="special-font">pro</h4>
+                    <h2>$49.99 <span class="smaller">/mo</span></h2>
+                    <p>Up to <span class="darker">500$</span> of benefits</p>
+                    <div class="benefits">
+                        <p>Everything in lrn, Plus:</p>
+                        <ul>
+                            <li>Access to 100+ Courses</li>
+                            <li>Weekly Mentoring Calls</li>
+                            <li>Personal course success manager</li>
+                            <li>Monthly check-ins with course <br>
+                                success manager</li>
+                        </ul>
+                    </div>
+                    <button class="pricing-button button button-flex flex1" data-cursor="pointer"
+                        onclick='window.location.href = "https\://wrkble.com/pricing"'><span>BUY
+                            NOW</span><img src="./assets/white-arrow.svg" height="50px" alt=""></button>
+                </article>
+            </div>
+            <div class="lights bottom"></div>
+            <img class="shape shape1" src="./assets/shape1.png" alt="" height="120px"> <img class="shape shape2"
+                height="175px" src="./assets/shape2.png" alt="">
+            <img class="shape shape3" src="./assets/shape3.png" alt="" height="135px"> <img class="shape shape4"
+                src="./assets/shape4.png" alt="" height="120px">
+            <img class="shape shape5" src="./assets/shape5.png" alt="" height="145px"> <img class="shape shape6"
+                src="./assets/shape6.png" alt="" height="110px">
+            <img class="shape shape7" src="./assets/shape7.png" alt="" height="130px"> <img class="shape shape8"
+                src="./assets/shape8.png" alt="" height="125px">
+            <img class="shape shape9" src="./assets/shape9.png" alt="" height="80px"> <img class="shape shape10"
+                src="./assets/shape10.png" alt="" height="145px">
+        </section>
+        <section class="vertical-scrolling footer">
+            <div class="center-container" data-label="Unleash Your Wrkble Potential.">
+                <h2 data-cursor="pointer">Unleash Your <span class="special-font">Wrkble</span> Potential. </h2>
+            </div>
+            <footer data-cursor="pointer3">
+                <a href="#home" aria-label="go to home page"> <img class="logo-mini" src="./assets/w.svg" alt=""></a>
+
+                <div class="footer-wrapper">
+                    <ul class="start landscape">
+                        <li><a href="https://www.linkedin.com/company/wrkble/" target="_blank"><span
+                                    class="landscape button-flex">linkedIn <img src="./assets/white-arrow.svg"
+                                        height="30px" alt=""></span></a></li>
+                        <li><a href="https://www.instagram.com/wrkble/" target="_blank"><span
+                                    class="landscape button-flex">instagram <img src="./assets/white-arrow.svg"
+                                        height="30px" alt=""></span></a></li>
+                        <li><a href="https://twitter.com/wrkble" target="_blank"><span
+                                    class="landscape button-flex">twitter <img src="./assets/white-arrow.svg"
+                                        height="30px" alt=""></span></a></li>
+                        <li><a href="https://www.youtube.com/@Wrkble/shorts" target="_blank"><span
+                                    class="landscape button-flex">youtube <img src="./assets/white-arrow.svg"
+                                        height="30px" alt=""></span></a></li>
+                    </ul>
+                    <ul class="start portrait">
+                        <li><a href="https://www.linkedin.com/company/wrkble/" target="_blank"><span><img height="20px"
+                                        src="./assets/linkedin.svg" alt=""></span></a></li>
+                        <li><a href="https://www.instagram.com/wrkble/" target="_blank"><span><img height="23px"
+                                        src="./assets/instagram.svg" alt=""></span></a></li>
+                        <li><a href="https://twitter.com/wrkble" target="_blank"><span><img height="23px"
+                                        src="./assets/twitter.svg" alt=""></span></a></li>
+                        <li><a href="https://www.youtube.com/@Wrkble/shorts" target="_blank"><span><img height="26px"
+                                        src="./assets/youtube.svg" alt=""></span></a></li>
+                    </ul>
+                    <ul class="center
+                    ">
+                        <li><a href="https://wrkble.com/faq" target="_blank">FAQ</a></li>
+                        <li><a href="https://wrkble.com/refundPolicy" target="_blank">Refund Policy</a></li>
+                        <li><a href="https://wrkble.com/termsAndConditions" target="_blank">Terms & Conditions</a></li>
+                        <li><a href="https://wrkble.com/privacyPolicy" target="_blank">Privacy Policy</a></li>
+                    </ul>
+                    <ul class="center landscape
+                    ">
+                        <li><a href="https://maps.app.goo.gl/goYnFQhyjwh7RZmu7" target="_blank">
+                                <img src="./assets/location.svg" alt="location of cybtekk office">
+                                Cybtekk, Netsmartz House,<br>
+                                Sector 13, Chandigarh.</a></li>
+                        <li><a href="tel:09875906300" target="_blank"><img src="./assets/contact.svg"
+                                    alt="phone number of cybtekk office"> 098759 06300</a></li>
+                        <li><a href="mailto:hello@wrkble.com" target="_blank">
+                                <img src="./assets/mail.svg" alt="mail of cybtekk office">hello@wrkble.com</a></li>
+                    </ul>
+                    <div class="end">
+                        <p>Want to know more<br> about us?</p>
+                        <a href="mailto:hello@wrkble.com" aria-label="email us for any queries">
+                            <button class="button difference button-flex flex2" data-cursor="pointer">
+                                Get In Touch
+                                <img src="./assets/off-white-arrow.svg" height="50px" alt="">
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div id="insert-year" class="center">&copy;
+                    <script>document.getElementById('insert-year').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+                    Wrkble. All Rights Reserved.
+                </div>
+            </footer>
+        </section>
+    </div>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WM2MCCFS" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+</body>
+
+</html>
